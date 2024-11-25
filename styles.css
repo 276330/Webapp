@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background:grey;
+}
+.panel{
+    height:100%;
+}
+#panel-1{
+    background:#d9ead3ff;
+}
+#panel-2{
+    background: #fff2ccff;
+}
+#panel-3{
+    background:#d0e0e3ff;
+}
+#panel-4{
+    background:green;
+}
+button{
+    padding:10px;
+}
+button:hover{
+    cursor:pointer;
+}
+
+/*
+=================================================
+TYPOGRAPHY
+=================================================
+*/
+h1{
+    margin:0;
+    padding:150px 0 50px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size:54px;
+}
+p{
+  font-family: 'Roboto', sans-serif;  
+  font-size:18px;
+}
+
+/*
+=================================================
+Navigation
+=================================================
+*/
+
+nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background:#FFF;
+    border-top:#CCC;
+    padding:20px;
+}
