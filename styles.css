@@ -9,7 +9,7 @@ html,body{
     margin:0;
     padding:0;
     text-align:center;
-    background:#FFF;
+    background:#d9ead3ff;
 }
 a{
     text-decoration: none;
@@ -26,13 +26,13 @@ h1{
     width:50px;
     background-color: #d9ead3ff;
     border-radius:50%;
-    border:1px solid #fff2ccff;
+    border:3px solid ;
     display:inline-block;
     margin:25px;
     position:absolute;
 }
 #one{
-    bottom:0;
+    bottom:50%;
 }
 #two{
     bottom:10%;
@@ -44,10 +44,31 @@ h1{
 }
 #four{
     top:50%;
-    left:10%;
+    left:60%;
 }
 #five{
-
+    top:60%;
+    right:10%;
+}
+#six{
+    top:80%;
+    left:70%;
+}
+#seven{
+    top:30%;
+    left:35%;
+}
+#eight{
+    top:70%;
+    left:50%;
+}
+#nine{
+    bottom:30%;
+    left:20%;
+}
+#ten{
+    top:20%;
+    left:5%;
 }
 
 /* POP */
@@ -59,7 +80,7 @@ h1{
 .pop {
     width: 100px;
     height: 100px;
-    background-color: #3498db;
+    background-color:rgb(157, 205, 214);
     color: white;
     display: flex;
     justify-content: center;
