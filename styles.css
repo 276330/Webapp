@@ -33,42 +33,86 @@ h1{
 }
 #one{
     bottom:50%;
+    background-color: rgb(176, 100, 137);
+    width: 90px;
+    height: 90px;
 }
 #two{
     bottom:10%;
     left:5%;
+    background-color: #b2c55e;
+    width: 80px;
+    height: 80px;
 }
 #three{
     top:10%;
     right:30%;
+    background-color: #c99292;
+    width: 70px;
+    height: 70px;
 }
 #four{
     top:50%;
     left:60%;
+    background-color: rgb(41, 199, 186);
+    width: 60px;
+    height: 60px;
 }
 #five{
     top:60%;
     right:10%;
+    background-color: aliceblue;
+    width: 115px;
+    height: 115px;
 }
 #six{
     top:80%;
     left:70%;
+    background-color: blanchedalmond;
+    width: 80px;
+    height: 80px;
 }
 #seven{
     top:30%;
     left:35%;
+    background-color:rgb(173, 94, 94);
+    width: 75px;
+    height: 75px;
 }
 #eight{
     top:70%;
     left:50%;
+    background-color: beige;
+    width: 80px;
+    height: 80px;
 }
 #nine{
     bottom:30%;
     left:20%;
+    background-color: bisque;
+    width: 150px;
+    height: 150px;
 }
 #ten{
     top:20%;
     left:5%;
+    background-color: aquamarine;
+    width: 83px;
+    height: 83px;
+}
+#eleven{
+    top:25%;
+    left:67%;
+    background-color:#413b3b;
+    width: 94px;
+    height: 94px;
+}
+#twelve{
+    top:85%;
+    left:34%;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
 }
 
 /* POP */
@@ -78,9 +122,6 @@ h1{
 
 
 .pop {
-    width: 100px;
-    height: 100px;
-    background-color:rgb(157, 205, 214);
     color: white;
     display: flex;
     justify-content: center;
@@ -101,3 +142,5 @@ h1{
     }
 
 }
+
+
